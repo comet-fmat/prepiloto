@@ -9,9 +9,9 @@ public class Variables {
 	// STUB: 
         //Please printf 9000 chicken, 0.1 bacon and tractor Zetor
         // CHANGE THESE: 
-        // STUB:int chickenCount = 0; 
-        // STUB:double baconWeight = 0; 
-        // STUB:String tractor = null;
+        int chickenCount = 0; 
+        double baconWeight = 0; 
+        String tractor = null;
         // DO NOT TOUCH THE BELOW:
 
         System.out.println("Chickens:");
