@@ -4,10 +4,9 @@ import org.junit.Before;
 import java.util.regex.*;
 
 import static org.junit.Assert.*;
-import fi.helsinki.cs.tmc.edutestutils.Points;
 import fi.helsinki.cs.tmc.edutestutils.MockStdio;
 
-@Points("4")
+
 public class VariablesTest {
 
     String out;

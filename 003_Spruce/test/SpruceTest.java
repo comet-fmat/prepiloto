@@ -1,4 +1,4 @@
-
+import org.junit.Rule;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -6,7 +6,7 @@ import fi.helsinki.cs.tmc.edutestutils.MockStdio;
 
 public class SpruceTest {
 
-    
+    @Rule
     public MockStdio io = new MockStdio();
     public String[] oikein = {"    *",
         "   ***",
