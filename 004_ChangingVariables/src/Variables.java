@@ -6,12 +6,9 @@ public class Variables {
         double baconWeight = 0.1;
         String tractor = "Zetor";
 	// END SOLUTION
-	// STUB: 
+	// STUB: int chickenCount = 0;double baconWeight = 0;String tractor = null;
         //Please printf 9000 chicken, 0.1 bacon and tractor Zetor
         // CHANGE THESE: 
-        int chickenCount = 0; 
-        double baconWeight = 0; 
-        String tractor = null;
         // DO NOT TOUCH THE BELOW:
 
         System.out.println("Chickens:");
