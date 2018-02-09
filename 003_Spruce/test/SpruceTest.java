@@ -2,6 +2,7 @@ import org.junit.Rule;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+import fi.helsinki.cs.tmc.edutestutils.Points;
 import fi.helsinki.cs.tmc.edutestutils.MockStdio;
 
 public class SpruceTest {
@@ -14,7 +15,7 @@ public class SpruceTest {
         " *******",
         "*********",
         "    *"};
-
+    @Points("3")
     @Test
     public void test() {
         Spruce.main(new String[0]);

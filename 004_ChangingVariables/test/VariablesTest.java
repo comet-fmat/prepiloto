@@ -4,6 +4,7 @@ import org.junit.Before;
 import java.util.regex.*;
 
 import static org.junit.Assert.*;
+import fi.helsinki.cs.tmc.edutestutils.Points;
 import fi.helsinki.cs.tmc.edutestutils.MockStdio;
 
 
@@ -34,7 +35,7 @@ public class VariablesTest {
         assertTrue("Check that "+a+" prints right also in the nutshell",
                    Pattern.matches(tokaRegex(a,b),out));
     }
-
+    @Points("4")
     @Test
     public void testaaKanat() {
         testaa("Chickens:","9000");

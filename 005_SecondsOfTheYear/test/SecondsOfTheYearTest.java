@@ -2,13 +2,14 @@ import org.junit.Test;
 import org.junit.Rule;
 
 import static org.junit.Assert.*;
+import fi.helsinki.cs.tmc.edutestutils.Points;
 import fi.helsinki.cs.tmc.edutestutils.MockStdio;
 
 public class SecondsOfTheYearTest {
 
     @Rule
     public MockStdio io = new MockStdio();
-
+    @Points("5")
     @Test
     public void test() {
         SecondsOfTheYear.main(new String[0]);
