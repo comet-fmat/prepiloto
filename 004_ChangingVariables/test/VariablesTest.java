@@ -26,29 +26,29 @@ public class VariablesTest {
     }
 
     String tokaRegex(String a, String b) {
-        return "(?s).*In a nutshell:.*\\s*"+b+"\\s.*";
+        return "(?s).*En resumen:.*\\s*"+b+"\\s.*";
     }
 
     void testaa(String a, String b) {
-        assertTrue("Check that "+a+" prints right",
+        assertTrue("Verifica que "+a+" se imprima correctamente",
                    Pattern.matches(ekaRegex(a,b),out));
-        assertTrue("Check that "+a+" prints right also in the nutshell",
+        assertTrue("Verifica que  "+a+" se imprima correctamente en el resumen",
                    Pattern.matches(tokaRegex(a,b),out));
     }
     @Points("4")
     @Test
     public void testaaKanat() {
-        testaa("Chickens:","9000");
+        testaa("Pollos:","9000");
     }
 
     @Test
     public void testaaPekoni() {
-        testaa("Bacon \\(kg\\):","0\\.1");
+        testaa("Tocino \\(kg\\):","0\\.1");
     }
 
     @Test
     public void testaaTraktori() {
-        testaa("A tractor:","Zetor");
+        testaa("Un tractor:","Zetor");
     }
 
 }

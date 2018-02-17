@@ -2,12 +2,13 @@ public class Greeter {
 
     public static void main(String[] args) {
         // BEGIN SOLUTION
-        System.out.println("Hello world!");
-        System.out.println("(And all the people of the world)");
+        System.out.println("Hola mundo!");
+        System.out.println("(y a todas las personas en el)");
         // END SOLUTION
-	// STUB: // Write your code here
-        // Please print "Hello world!"
-        // Plese print "(And all the people of the world)"
+	// STUB: 
+        // Escribe tu codigo aqui
+        // Por favor imprime "Hola mundo!"
+        // y tambien imprime "(y a todas las personas en el)"
        
     }
 

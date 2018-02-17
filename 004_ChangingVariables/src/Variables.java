@@ -7,18 +7,20 @@ public class Variables {
         String tractor = "Zetor";
 	// END SOLUTION
 	// STUB: int chickenCount = 0;double baconWeight = 0;String tractor = null;
-        //Please printf 9000 chicken, 0.1 bacon and tractor Zetor
-        // CHANGE THESE: 
-        // DO NOT TOUCH THE BELOW:
+        //Por favor imprime 9000 pollos, 0.1 tocino y un tractor Zetor
+        //STUB:int chickenCount;
+        //STUB:double baconWeight;
+        //STUB:String tractor;
+        // No toques el codigo de abajo:
 
-        System.out.println("Chickens:");
+        System.out.println("Pollos:");
         System.out.println(chickenCount);
-        System.out.println("Bacon (kg):");
+        System.out.println("Tocino (kg):");
         System.out.println(baconWeight);
-        System.out.println("A tractor:");
+        System.out.println("Un tractor:");
         System.out.println(tractor);
         System.out.println("");
-        System.out.println("In a nutshell:");
+        System.out.println("En resumen:");
         System.out.println(chickenCount);
         System.out.println(baconWeight);
         System.out.println(tractor);

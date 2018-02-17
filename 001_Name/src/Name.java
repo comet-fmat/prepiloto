@@ -2,11 +2,12 @@ public class Name {
     
     public static void main(String[] args) {
     	// BEGIN SOLUTION
-        System.out.println("My Name");
+        System.out.println("Mi nombre");
         // END SOLUTION
-	// STUB: // Write your program here
-        // Please print your name 
-        // It will take less than 5 minutes!
+	// STUB: 
+        // Escribe tu programa aqui
+        // Por favor escribe tu numbre 
+        // Esto no te debe tomar mas de un minuto!
         
     }
 

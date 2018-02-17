@@ -13,6 +13,6 @@ public class NameTest {
     public void test() {
         Name.main(new String[0]);
         String out = io.getSysOut();
-        assertTrue("You did not print anything!",out.length()>0);
+        assertTrue("Tu no imprimiste nada!",out.length()>0);
     }
 }

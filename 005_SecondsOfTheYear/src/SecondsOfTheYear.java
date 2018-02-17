@@ -10,8 +10,8 @@ public class SecondsOfTheYear {
 
         // END SOLUTION
         // STUB: 
-        // In below an incomplete version of the program. Please complete it!
-        // for calculated how many second have one year
+        // Abajo existe una version imcompleta del programa
+        // para calcular cuantos segundos hay en un año.
         
         // STUB:int daysInYear = 0;
         // STUB:int hoursInDay = 0;
@@ -20,7 +20,7 @@ public class SecondsOfTheYear {
         
         // STUB:int secondsInYear = 0;
 
-        System.out.println("There are " + secondsInYear + " seconds in a year");
+        System.out.println("Existen  " + secondsInYear + " segundos en un año");
     }
 
 }

@@ -11,23 +11,23 @@ public class GreeterTest {
     public MockStdio io = new MockStdio();
 
     public String[] oikein =
-    {"Hello world!",
-     "(And all the people of the world)"};
+    {"Hola mundo!",
+     "(y a todas las personas en el)"};
     @Points("2")
     @Test
     public void test() {
         Greeter.main(new String[0]);
         String out = io.getSysOut();
-        assertTrue("You did not print anything!",out.length()>0);
+        assertTrue("Tu no imprimiste nada",out.length()>0);
 
         String[] lines = out.split("\n");
 
-        assertEquals("Your program should print 2 lines, "
-                + "so it should have 2 System.out.println() commands.",
+        assertEquals("tu programa debe imprimir dos lineas "
+                + ", tu codigo debe tener dos comandos: System.out.println()",
                      oikein.length, lines.length);
 
-        assertEquals("First line wrong",oikein[0],lines[0]);
-        assertEquals("Second line wrong",oikein[1],lines[1]);
+        assertEquals("La primer linea esta mal",oikein[0],lines[0]);
+        assertEquals("la segunda linea esta mal",oikein[1],lines[1]);
     }
 
 }

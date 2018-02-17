@@ -15,8 +15,8 @@ public class SecondsOfTheYearTest {
         SecondsOfTheYear.main(new String[0]);
         String out = io.getSysOut();
 
-        assertTrue("You do not print anything!",out.trim().length()>0);
-        assertTrue("Printed value is not correct!",out.contains("31536000"));
+        assertTrue("No has impreso nada",out.trim().length()>0);
+        assertTrue("El valor impreso es incorrecto!",out.contains("31536000"));
     }
 
 }

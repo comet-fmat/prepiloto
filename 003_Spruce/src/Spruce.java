@@ -10,8 +10,8 @@ public class Spruce {
         System.out.println("*********");
         System.out.println("    *");
         // END SOLUTION
-	// STUB:  // Write code here
-        /* Please print spruce like that:
+	// STUB: 
+        /* Por favor imprime un arbol como este:
             *
            ***
           *****
